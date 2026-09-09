@@ -124,5 +124,19 @@ When running as a daemon on `:3090`, `zo-snapshot` provides native JSON-RPC 2.0 
 
 ---
 
+## Fork and pull requests
+
+This repo is public. Fork it, push your branch to **your** fork, then open a PR against `main`.
+
+1. Fork: https://github.com/SillyHippy/zo-snapshot/fork
+2. Clone your fork, branch off `main`, push, then Compare & pull request.
+
+Details: [CONTRIBUTING.md](CONTRIBUTING.md)
+
+Issues: https://github.com/SillyHippy/zo-snapshot/issues
+
+---
+
 ## License
-MIT
+
+[MIT](LICENSE)
