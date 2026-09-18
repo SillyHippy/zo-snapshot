@@ -19,6 +19,8 @@ Use this skill whenever the user wants to take a checkpoint, inspect past system
 - **Diff between two snapshots:** `zo-snapshot diff <snap_id_1> <snap_id_2>`
 - **Restore / Rollback:** `zo-snapshot restore <snapshot_id> [--dry-run]`
 
+SQLite `.db` diffs are table/row text (one line per row), not binary garbage. WAL/SHM files are size-only stubs.
+
 ## REST / MCP API
 
 Daemon runs locally at `http://127.0.0.1:3090`:
